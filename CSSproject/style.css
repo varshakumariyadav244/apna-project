@@ -103,8 +103,6 @@
     padding: 200px 90px;
     background-color: #f3efe5e0;
     position: relative;
-    /* display: inline-block; */
-
 }
 
 .photo img {
@@ -154,80 +152,319 @@
     }
 }
 
+.main-section {
+    background-color: #f3efe5;
+    padding: 80px 50px 350px 50px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
 
-.logo {
-    font-weight: bold;
-    font-size: 1.1rem;
+    button {
+        position: absolute;
+        padding: 15px 40px;
+        bottom: 50px;
+        left: 670px;
+        text-transform: uppercase;
+        font-size: 17px;
+        border: 1px solid black;
+
+    }
+
 }
 
-.nav-links {
-    display: flex;
-    list-style: none;
-    gap: 30px;
-}
-
-.nav-links a {
-    text-decoration: none;
-    color: #555;
-    font-size: 0.9rem;
-    transition: color 0.3s;
-}
-
-.nav-links a:hover {
-    color: #000;
-}
-.services-container {
-    max-width: 900px;
-    margin: 60px auto;
+.text2 {
+    border: 1px solid #926e38;
     text-align: center;
-    padding: 0 20px;
-}
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1000px;
+    padding-bottom: 300px;
 
-.section-tag {
-    font-size: 0.75rem;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    color: #888;
-    display: block;
-    margin-bottom: 10px;
-}
+    p {
+        padding: 60px 150px;
+        font-size: 17px;
+        line-height: 2;
+        color: rgba(0, 0, 0, 0.675);
+    }
 
-.section-title {
-    font-size: 2.8rem;
-    font-weight: 400;
-    margin-bottom: 25px;
-    color: #1a1a1a;
-}
+    h3 {
+        padding-top: 60px;
+        font-size: 17px;
+        text-transform: uppercase;
+        color: #926e38;
+    }
 
-.section-description {
-    font-size: 0.95rem;
-    color: #666;
-    max-width: 700px;
-    margin: 0 auto 50px auto;
-    line-height: 1.8;
-}
+    h1 {
+        font-size: 49px;
+        padding-top: 15px;
+    }
 
 
-.image-grid {
-    display:flex;
-    /* grid-template-columns: 1fr 1.2fr 1fr; */
-    /* gap: 20px; */
-    /* align-items: end;  */
+
 }
 
-.grid-item img {
-    width: 50%;
-    height: auto;
-    object-fit: cover;
-    display: blold;
-}
-.item-left {
-    padding-bottom: 40px;
+.img2 {
+    position: absolute;
+    bottom: 270px;
+    left: 250px;
+    width: 15%;
+    z-index: 1;
+
 }
 
-.item-right {
-    padding-bottom: 20px;
+.img3 {
+    position: absolute;
+    bottom: 10px;
+    left: 510px;
+    width: 15%;
+    gap: 50px;
+    top: 590px;
+    z-index: 1;
 }
+
+.img4 {
+    position: absolute;
+    bottom: 10px;
+    right: 510px;
+    width: 15%;
+    gap: 50px;
+    top: 590px;
+    z-index: 1;
+}
+
+.img5 {
+    position: absolute;
+    bottom: 270px;
+    right: 250px;
+    width: 15%;
+    z-index: 2;
+
+}
+
+.leaf4 {
+    position: absolute;
+    left: 190px;
+    bottom: 500px;
+    width: 23%;
+}
+
+.leaf5 {
+    position: absolute;
+    right: 190px;
+    bottom: 500px;
+    width: 23%;
+    transform: rotate(0deg) scalex(-1);
+}
+
+.leafs {}
+
+.article2 {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    /* padding: 0px 50px; */
+
+    width: 100%;
+    /* height: 100%; */
+    gap: 30px;
+    padding: 50px 0px;
+    color: rgba(0, 0, 0, 0.727);
+
+    hr {
+        margin-top: 40px;
+        width: 100%;
+
+    }
+
+    p {
+        padding: 10px 0px;
+    }
+
+    h4 {
+        font-size: 20px;
+        padding: 20px 0px;
+        color: rgba(0, 0, 0, 0.736);
+    }
+
+    span {
+        font-size: 25px;
+    }
+}
+
+.artical1 {
+    height: 100%;
+    padding: 40px 150px;
+    background-color: #f3efe5;
+
+    h1 {
+        font-size: 45px;
+        color: rgba(0, 0, 0, 0.701);
+    }
+
+    h3 {
+        font-size: 16px;
+        padding: 10px 0px;
+        text-transform: uppercase;
+        color: #926e38;
+    }
+}
+
+.hero-section3 {
+    height: 100%;
+    width: 100%;
+    padding: 50px 130px;
+    background-color: #f3efe5e0;
+    gap: 0px;
+
+    h1 {
+        font-size: 40px;
+        padding: 20px 0px;
+        font-weight: bold;
+    }
+
+    h4 {
+        font-size: 17px;
+        text-transform: uppercase;
+        color: #926e38;
+    }
+
+    .art2 {
+        text-align: center;
+        margin-top: 30px;
+
+        button {
+            padding: 15px 40px;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 14px;
+            color: #f3efe5;
+            border: 1px solid black;
+            background-color: rgb(69, 61, 61);
+        }
+
+    }
+}
+
+.art {
+    text-align: center;
+}
+
+.hero-article2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0px;
+
+    img {
+        width: 85%;
+    }
+
+}
+
+.h {
+    h3 {
+        padding: 10px 20px;
+        font-size: 24px;
+        color: rgba(0, 0, 0, 0.793);
+    }
+
+    h5 {
+        padding: 10px 20px;
+        text-transform: uppercase;
+        color: #c2790c;
+    }
+
+    p {
+        padding: 0px 20px;
+        font-size: 15px;
+        color: rgba(0, 0, 0, 0.747);
+    }
+
+    h4 {
+        padding: 0px 20px;
+        font-size: 17px;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: rgba(0, 0, 0, 0.742);
+    }
+}
+
+.header {
+    padding: 70px 220px;
+    background-color: #f3efe5;
+    height: 100%;
+    width: 100%;
+
+    h4 {
+        padding: 10px 0px;
+        text-transform: uppercase;
+        color: #c2790c;
+    }
+
+    h1 {
+        padding: 10px 0px;
+        font-size: 40px;
+    }
+
+}
+
+.na {
+    text-align: center;
+}
+
+.text5 {
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 40px 0px;
+}
+
+.text6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    /* margin-left: 40px; */
+    h2 {
+        padding: 20px 0px;
+        letter-spacing: 2;
+    }
+
+}
+
+.text7 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.photo {
+    img {
+        width: 60%;
+    }
+}
+
+.farm {
+    input {
+        width: 450px;
+        gap: 20px;
+        height: 39px;
+        margin: 5px 0px;
+        font-size: 18px;
+        text-transform: uppercase;
+
+
+    }
+
+    button {
+        width: 450px;
+        background-color: rgb(43, 38, 38);
+        color: white;
+        height: 45px;
+        font-weight: bold;
+        font-size: 17px;
+        text-transform: uppercase;
+    }
+
+    /* padding: 2px 0px; */
+}
+
 
 @media screen and (max-width:1200px) {
     .text p {
@@ -246,18 +483,16 @@
     .leaf {
         left: 0;
         bottom: 300px;
-        transform: rotate();
     }
-    .text2{
-    left: 100px;
-    height: 400px;
-    p{
-        padding: 0px 20px;
+
+    .text2 {
+        p {
+            padding: 0px 0px;
+        }
     }
-    }
+
 
 }
-
 
 @media screen and (max-width:800px) {
     .nav2 {
@@ -310,13 +545,183 @@
             margin-bottom: 10px;
 
         }
+    }
+
+
+
+    .article2 {
+        grid-template-columns: 2fr;
+    }
+
+    .artical1 {
+        padding: 0px 40px;
+    }
+
+    .hero-section3 {
+        padding: 60px 50px;
+
+        h1 {
+            font-size: 20px;
+        }
+    }
+
+    .hero-article2 {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        padding: ;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .header {
+        padding: 50px 50px;
+
+        h1 {
+            font-size: 20px;
+        }
+    }
+
+    .text5 {
+        display: grid;
+        /* text-align: center; */
+        grid-template-columns: 1fr;
+        padding: 70px 0px;
+
+        p {
+            padding: 30px 0px;
+        }
+
+        time {
+            padding: 30px 0px;
+        }
+
+        a {
+            padding: 30px 0px;
+        }
 
     }
 
+    .text6 {
+        display: grid;
+        grid-template-columns: 1fr;
+
+        h2 {
+            font-size: 17px;
+        }
+
+        .farm {
+            input {
+                width: 250px;
+                gap: 20px;
+                height: 39px;
+                margin: 5px 0px;
+                font-size: 18px;
+                text-transform: uppercase;
+            }
+
+        }
+
+        button {
+            width: 250px;
+            background-color: rgb(43, 38, 38);
+            color: white;
+            height: 40px;
+            font-weight: bold;
+            font-size: 17px;
+            text-transform: uppercase;
+            padding: 0px 0px;
+            margin-bottom: 40px;
+        }
+
+        /* padding: 2px 0px; */
+    }
+}
+
+@media screen and (max-width:500px) {
+    .main-section {
+        position: relative !important;
+        width: 100%;
+        height: 2700px !important;
+        display: flex;
+        flex-direction: column;
+        padding: 60px 10px 90px 15px !important;
+        min-height: auto !important;
+        z-index: -1;
+
+        button {
+            position: relative;
+            /* display: none; */
+            left: 90 !important;
+            padding: 15px 20px;
+            bottom: 0;
+            left: 670px;
+            text-transform: uppercase;
+            font-size: 17px;
+            border: 1px solid black;
+            z-index: 2;
+
+        }
+    }
+
+    .text2 {
+        position: relative !important;
+        z-index: 1;
+        width: 100% !important;
+        padding-bottom: 20px !important;
+        width: 100% !important;
+    }
+
+    .text2 h1 {
+        font-size: 28px !important;
+        /* }
+
+  .text2 p{
+    padding: 20px 15px !important; /* 150px ko 15px kiya */
+        font-size: 15px !important;
+    }
+
+    .photos {
+        flex-direction: column;
+    }
+
+    .img2,
+    .img3,
+    .img4,
+    .img5 {
+        position: relative;
+        top: 70px !important;
+        left: auto !important;
+        right: auto !important;
+        transform: none !important;
+        width: 300px !important;
+        margin: 15px auto !important;
+        display: block;
+        z-index: 2;
+    }
+
+    .leafs {
+
+        .leaf4,
+        .leaf5 {}
+    }
+
+    .leaf4,
+    .leaf5 {
+        display: none;
+        position: relative !important;
+        right: 5%;
+        top: 20%;
+        /* bottom: 90px !important; */
+        width: 300px;
+    }
 }
 
 @media screen and (min-width:700px) {
+
     .leaf {
         width: 30%;
     }
+
 }
